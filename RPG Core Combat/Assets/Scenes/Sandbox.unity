@@ -934,6 +934,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1042970668}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1071811724 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6110211833245253101, guid: 66b2976bfc5980d44a83563d137fc9ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1267365400733497499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1071811727
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071811724}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: d288a0e4a2d923b46898986e979da643, type: 3}
+  m_Controller: {fileID: 9100000, guid: 48f3b2f475f044b419e69dc57a36ba4c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1071811730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1549681989043378280, guid: 66b2976bfc5980d44a83563d137fc9ab,
@@ -1587,6 +1612,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6110211833245253103, guid: 66b2976bfc5980d44a83563d137fc9ab,
+        type: 3}
+      propertyPath: m_AngularSpeed
+      value: 720
+      objectReference: {fileID: 0}
+    - target: {fileID: 6110211833245253103, guid: 66b2976bfc5980d44a83563d137fc9ab,
+        type: 3}
+      propertyPath: m_Speed
+      value: 5.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 6110211833245253103, guid: 66b2976bfc5980d44a83563d137fc9ab,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66b2976bfc5980d44a83563d137fc9ab, type: 3}
 --- !u!1001 &4999705979610316424
@@ -1661,5 +1701,15 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1071811730}
+    - target: {fileID: 4999705979605996761, guid: 96fedac2eca22824ab86f952a7c4950b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999705979605996761, guid: 96fedac2eca22824ab86f952a7c4950b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.88
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96fedac2eca22824ab86f952a7c4950b, type: 3}
